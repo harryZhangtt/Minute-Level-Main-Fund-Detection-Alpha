@@ -10,7 +10,7 @@ from scipy.stats import zscore
 
 from sklearn.linear_model import LinearRegression
 
-# Define the directory containing the CSV files
+
 # Define the directory containing the CSV files
 results_dir = '/Users/zw/Desktop/combined_alpha_results'
 merged_csv_dir = '/Users/zw/Desktop/DataBase/Merged_CSVs'  # Replace with the actual path
