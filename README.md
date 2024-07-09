@@ -7,3 +7,6 @@ this code read the minute level data of all Chinese A-Shares Stocks, expand them
 #Backtest and Analysis: 
 to avoid memory outflow when dealing with high volume minute-level data, the alpha value is calculated and saved daily and after each day's calculation, the memory is released. However, this process may slow down the process of backtesting.Therefore, backtest and analysis of the strtegy is done in a seperate code that join all of the alpha values together and perform backtest through vectorized calculation.
 (the return of individual stock is calculated as difference between ADJ_CLOSE_PRICE, to mimic the real trading one may use trade_pnl(ADJ_CLOSE_PRICE-ADJ_VWAP) and hold_pnl( difference between ADJ_CLOSE)). 
+
+#Report
+the report is attached below. Feel free to download it.
